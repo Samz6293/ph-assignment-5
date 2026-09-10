@@ -7,7 +7,7 @@
 @utility content-box {
     width: 85%;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 @utility content-box-s {

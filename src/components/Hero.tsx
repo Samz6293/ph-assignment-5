@@ -7,9 +7,8 @@ const Hero = () => {
                 <div className="flex flex-col gap-4">
                     <div>
                         <h1 className="text-3xl font-bold
-                        md:text-5xl md:font-extrabold">Build Your Ideal</h1>
-                        <h1 className="orange-pink-purple text-3xl font-bold
-                        md:text-5xl md:font-extrabold">Development Stack</h1>
+                        md:text-4xl md:font-extrabold lg:text-5xl">Build Your Ideal <br />
+                        <span className="orange-pink-purple">Development Stack</span></h1>
                     </div>
 
                     <p className="text-[#4B5563] text-[14px] max-w-145

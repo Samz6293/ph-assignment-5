@@ -9,7 +9,8 @@ const Nav = () => {
             sm:p-3 sm:content-box">
                 <CiMenuBurger className="md:hidden"/>
 
-                <div className="justify-center">
+                <div className="flex justify-center 
+                md:justify-start">
                     <img className="block h-5 sm:h-7 lg:h-8" src={logo} alt="Dev Stack Logo" />
                 </div>
 
