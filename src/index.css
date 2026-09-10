@@ -7,9 +7,19 @@
 @utility content-box {
     width: 85%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 @utility content-box-s {
     width: 90%;
     margin: 0 auto;
+    max-width: 1200px;
 }
+
+@utility orange-pink-purple {
+    @apply bg-linear-to-r from-[#FF5722] via-[#E91E63] to-[#9C27B0] 
+    bg-clip-text text-transparent;
+}
+ @utility orange-pink {
+    @apply bg-linear-to-r from-[#F97316] to-[#EC4899]
+ }
