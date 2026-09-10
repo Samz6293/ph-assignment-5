@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* * {
+    outline: 1px solid purple;
+} */
+@utility content-box {
+    width: 85%;
+    margin: 0 auto;
+}
+
+@utility content-box-s {
+    width: 90%;
+    margin: 0 auto;
+}

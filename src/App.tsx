@@ -1,10 +1,11 @@
-function App() {
+import Nav from "./components/Nav"
 
-  return (
-    <>
-        <h1 className='text-2xl text-red-500'>Init test</h1>
-    </>
-  )
+function App() {
+    return (
+        <>
+            <Nav />
+        </>
+    )
 }
 
 export default App
