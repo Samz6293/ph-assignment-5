@@ -2,7 +2,7 @@ import banner from "../Assets/Banner.png"
 const Hero = () => {
     return (
         <>
-            <header className="content-box-s flex flex-col text-center items-center justify-between py-10 gap-4
+            <header className="content-box-s flex flex-col text-center items-center justify-between gap-4
             sm:content-box md:flex-row md:text-start md:py-23.5">
                 <div className="flex flex-col gap-4">
                     <div>
@@ -21,12 +21,12 @@ const Hero = () => {
                     <div className="flex gap-3 font-light justify-center text-sm
                     sm:text-lg md:justify-start">
                         <button className="orange-pink text-white px-4 py-3 rounded-lg cursor-pointer">Explore Technologies</button>
-                        <button className="px-8 py-3 outline-2 outline-[#E5E7EB] rounded-lg cursor-pointer">Learn More</button>
+                        <button className="px-8 py-3 outline outline-[#E5E7EB] rounded-lg cursor-pointer">Learn More</button>
                     </div>
                 </div>
 
                 <div>
-                    <img className="md:scale-110" src={banner} alt="Complicated Banner Image" />
+                    <img className="block mt-5 md:mt-0 md:scale-110" src={banner} alt="Complicated Banner Image" />
                 </div>
 
 

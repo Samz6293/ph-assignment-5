@@ -7,11 +7,11 @@ const Nav = () => {
         sm:text-xs lg:text-sm">
             <div className="content-box-s grid grid-cols-3 items-center p-3 
             sm:content-box">
-                <CiMenuBurger className="md:hidden"/>
+                <CiMenuBurger className="text-xl md:hidden"/>
 
                 <div className="flex justify-center 
                 md:justify-start">
-                    <img className="block h-5 sm:h-7 lg:h-8" src={logo} alt="Dev Stack Logo" />
+                    <img className="block h-6 sm:h-7 lg:h-8" src={logo} alt="Dev Stack Logo" />
                 </div>
 
                 <ul className="hidden text-gray-500 justify-center gap-4

@@ -31,10 +31,12 @@ const Tech = ({technology, selectedStack, handleSelectedStack}: TechProps) => {
                     <p style={stackStyle} className="font-bold rounded-full px-3 py-0.5 text-sm">{technology.badge}</p>
                 </div>
 
-                <p className="text-[#4B5563] min-h-25">{technology.description}</p>
+                <p className="text-[#4B5563] min-h-30">{technology.description}</p>
 
-                <div className="flex justify-between items-center text-[#667488] text-xs">
-                    <p className="bg-slate-100 rounded-md px-2 py-0.5">{technology.category}</p>
+                <div className=" bg-[#F3F4F6] w-full h-0.5"/>
+
+                <div className="flex justify-between items-center text-[#667488] text-[10px] lg:text-sm">
+                    <p className="bg-slate-50 rounded-md px-2 py-0.5">{technology.category}</p>
                     <p>{technology.difficulty}</p>
                     <div className="flex items-center gap-1 text-amber-500">
                         <MdStar />

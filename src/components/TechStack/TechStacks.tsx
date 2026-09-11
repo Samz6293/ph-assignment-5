@@ -10,11 +10,11 @@ const TechStacks = ({technologiesPromise, selectedStack, handleSelectedStack, ha
             <section className="content-box-s flex flex-col items-center py-10 gap-5
             lg:items-start lg:content-box">
 
-                <div className="flex flex-col justify-center text-center
+                <div className="flex flex-col justify-center text-center gap-1
                 lg:text-start">
-                    <h1 className="text-3xl font-bold
+                    <h1 className="text-2xl font-bold
                     md:text-4xl lg:text-5xl">Explore the <span className="orange-pink-purple">Technologies</span></h1>
-                    <p className="text-[#6B7280]">Pick one technology per category to build your ideal stack.</p>
+                    <p className="text-xs text-[#6B7280]">Pick one technology per category to build your ideal stack.</p>
                 </div>
 
                 {/* All stack and user stack */}
