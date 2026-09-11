@@ -4,7 +4,7 @@ const Footer = () => {
         <>
             <footer className="border border-gray-200">
                 <div className="content-box-s flex flex-col py-10 gap-5 items-center
-                md:items-start">
+                md:items-start md:content-box">
 
                     <div className="flex justify-center w-full
                     md:pb-10 md:justify-between">
