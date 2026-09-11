@@ -8,7 +8,7 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
     return (
         <>
             <section className="content-box-s flex flex-col items-center py-10 gap-5
-            lg:items-start md:content-box">
+            lg:items-start lg:content-box">
 
                 <div className="flex flex-col justify-center text-center
                 lg:text-start">
@@ -23,12 +23,13 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
                     
                     {/* All stack */}
                     <div className="grid grid-cols-1  w-full gap-4
-                    md:grid-cols-2 lg:grid-cols-3">
+                    md:grid-cols-2 xl:grid-cols-3">
                         {technologies.map(technology => <Tech key={technology.id} technology={technology}/>)}
                     </div>
 
                     {/* User stack */}
-                    <div className="flex flex-col outline p-4 outline-gray-200 rounded-xl gap-4">
+                    <div className="flex flex-col outline p-4 outline-gray-200 rounded-xl gap-4 h-fit 
+                    md:w-1/3">
                         <div className="text-start">
                             <h3 className="font-bold">Your Stack</h3>
                             <p className="text-xs text-[#667488] font-light ">No technologies selected yet.</p>
