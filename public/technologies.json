@@ -38,7 +38,7 @@
     "category": "Frontend",
     "description": "The React framework for full-stack web applications with hybrid static and server rendering.",
     "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
-    "color": "#000000",
+    "color": "#7E22CE",
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Full-Stack"
@@ -118,7 +118,7 @@
     "color": "#3776AB",
     "rating": 4.8,
     "difficulty": "Beginner-Friendly",
-    "badge": "Popular"
+    "badge": "In Demand"
   },
   {
     "id": "tailwindcss",

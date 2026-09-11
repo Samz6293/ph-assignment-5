@@ -1,10 +1,10 @@
 import { use } from "react"
 import type { TechStackProps } from "../../types"
 import Tech from "./Tech";
+import ChosenStacks from "./ChosenStacks";
 
-const TechStacks = ({technologiesPromise}: TechStackProps) => {
+const TechStacks = ({technologiesPromise, selectedStack, handleSelectedStack, handleClear}: TechStackProps) => {
     const technologies = use(technologiesPromise);
-    console.log(technologies);
     return (
         <>
             <section className="content-box-s flex flex-col items-center py-10 gap-5
@@ -24,20 +24,12 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
                     {/* All stack */}
                     <div className="grid grid-cols-1  w-full gap-4
                     md:grid-cols-2 xl:grid-cols-3">
-                        {technologies.map(technology => <Tech key={technology.id} technology={technology}/>)}
+                        {technologies.map(technology => <Tech key={technology.id} technology={technology}
+                        selectedStack={selectedStack} handleSelectedStack={handleSelectedStack}/>)}
                     </div>
 
                     {/* User stack */}
-                    <div className="flex flex-col outline p-4 outline-gray-200 rounded-xl gap-4 h-fit 
-                    md:w-1/3">
-                        <div className="text-start">
-                            <h3 className="font-bold">Your Stack</h3>
-                            <p className="text-xs text-[#667488] font-light ">No technologies selected yet.</p>
-                        </div>
-                        <div className="w-full">
-                            <p className="p-6 font-extralight text-center text-xs text-[#667488] outline outline-gray-300 rounded-lg outline-dashed">Your stack is empty</p>
-                        </div>
-                    </div>
+                    <ChosenStacks selectedStack={selectedStack} handleSelectedStack={handleSelectedStack} handleClear={handleClear}/>
 
 
                 </div>

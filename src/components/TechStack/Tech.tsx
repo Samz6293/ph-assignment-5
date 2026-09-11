@@ -1,9 +1,18 @@
 import { MdStar } from "react-icons/md"
 import type { TechProps } from "../../types"
+import { useState } from "react";
 
-const Tech = ({technology}: TechProps) => {
+const Tech = ({technology, selectedStack, handleSelectedStack}: TechProps) => {
     const stackStyle ={backgroundColor: `${technology.color}33`, 
     color: `${technology.color}`};
+    let [isSelected, setIsSelected] = useState(false);
+    isSelected = selectedStack.some(t => t.id === technology.id);
+    const handleSelect = () => {
+        if(!isSelected) {
+            setIsSelected(!isSelected);
+            handleSelectedStack(technology, isSelected);
+        }
+    }
 
     return (
         <>
@@ -34,7 +43,8 @@ const Tech = ({technology}: TechProps) => {
                 </div>
 
 
-                <button className="bg-black text-white rounded-lg py-2 w-[97%] mx-auto cursor-pointer">Add to Stack</button>
+                <button className={`${!isSelected ? " bg-black text-white cursor-pointer" : "bg-gray-300 text-gray-800 font-bold cursor-not-allowed"}  rounded-lg py-2 w-[97%] mx-auto`}
+                onClick={handleSelect} disabled={isSelected}>{!isSelected ? "Add to Stack": "Added"}</button>
             </div>
         </>
     )
