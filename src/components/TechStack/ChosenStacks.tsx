@@ -8,9 +8,9 @@ const ChosenStacks = ({selectedStack, handleSelectedStack, handleClear}: ChosenS
             md:min-w-47.5 md:w-1/3">
                 <div className="text-start">
                     <h3 className="font-bold">Your Stack</h3>
-                    {selectedStack.length === 0 && <p className="text-xs text-[#667488] font-light ">No technologies selected yet.</p>}
-                    {selectedStack.length === 1 && <p className="text-xs text-[#667488] font-light ">1 Technology Selected</p>}
-                    {selectedStack.length > 1 && <p className="text-xs text-[#667488] font-light ">{selectedStack.length} Technologies Selected</p>}
+                    {selectedStack.length === 0 && <p className="text-xs text-[#667488] font-light sm:text-sm">No technologies selected yet.</p>}
+                    {selectedStack.length === 1 && <p className="text-xs text-[#667488] font-light sm:text-sm">1 Technology Selected</p>}
+                    {selectedStack.length > 1 && <p className="text-xs text-[#667488] font-light sm:text-sm">{selectedStack.length} Technologies Selected</p>}
                 </div>
                 <div className="w-full">
                     {selectedStack.length === 0 ?
