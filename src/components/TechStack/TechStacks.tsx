@@ -8,15 +8,18 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
     return (
         <>
             <section className="content-box-s flex flex-col items-center py-10 gap-5
-            md:content-box">
+            lg:items-start md:content-box">
 
-                <div className="flex flex-col items-center">
-                    <h2 className="text-2xl font-bold">Explore the <span className="orange-pink-purple">Technologies</span></h2>
+                <div className="flex flex-col justify-center text-center
+                lg:text-start">
+                    <h1 className="text-3xl font-bold
+                    md:text-4xl lg:text-5xl">Explore the <span className="orange-pink-purple">Technologies</span></h1>
                     <p className="text-[#6B7280]">Pick one technology per category to build your ideal stack.</p>
                 </div>
 
                 {/* All stack and user stack */}
-                <div className="flex flex-col justify-center w-full">
+                <div className="flex flex-col justify-center w-full gap-4
+                md:flex-row">
                     
                     {/* All stack */}
                     <div className="grid grid-cols-1  w-full gap-4
@@ -25,7 +28,15 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
                     </div>
 
                     {/* User stack */}
-                    <div className="bg-blue-500 h-5 w-full"></div>
+                    <div className="flex flex-col outline p-4 outline-gray-200 rounded-xl gap-4">
+                        <div className="text-start">
+                            <h3 className="font-bold">Your Stack</h3>
+                            <p className="text-xs text-[#667488] font-light ">No technologies selected yet.</p>
+                        </div>
+                        <div className="w-full">
+                            <p className="p-6 font-extralight text-center text-xs text-[#667488] outline outline-gray-300 rounded-lg outline-dashed">Your stack is empty</p>
+                        </div>
+                    </div>
 
 
                 </div>

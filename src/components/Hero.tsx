@@ -18,8 +18,8 @@ const Hero = () => {
                         the stack that fits your next project.
                     </p>
 
-                    <div className="flex gap-3 font-light justify-center
-                    md:justify-start">
+                    <div className="flex gap-3 font-light justify-center text-sm
+                    sm:text-lg md:justify-start">
                         <button className="orange-pink text-white px-4 py-3 rounded-lg cursor-pointer">Explore Technologies</button>
                         <button className="px-8 py-3 outline-2 outline-[#E5E7EB] rounded-lg cursor-pointer">Learn More</button>
                     </div>

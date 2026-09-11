@@ -5,8 +5,8 @@ const Nav = () => {
     return (
         <nav className="sticky top-0 z-50 border bg-white border-gray-200 text-[10px] 
         sm:text-xs lg:text-sm">
-            <div className="content-box-s grid grid-cols-3 items-center pt-2 pb-1
-            sm:p-3 sm:content-box">
+            <div className="content-box-s grid grid-cols-3 items-center p-3 
+            sm:content-box">
                 <CiMenuBurger className="md:hidden"/>
 
                 <div className="flex justify-center 
