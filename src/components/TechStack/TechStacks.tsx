@@ -1,5 +1,6 @@
 import { use } from "react"
 import type { TechStackProps } from "../../types"
+import Tech from "./Tech";
 
 const TechStacks = ({technologiesPromise}: TechStackProps) => {
     const technologies = use(technologiesPromise);
@@ -15,12 +16,12 @@ const TechStacks = ({technologiesPromise}: TechStackProps) => {
                 </div>
 
                 {/* All stack and user stack */}
-                <div className="flex  w-full">
+                <div className="flex flex-col justify-center w-full">
                     
                     {/* All stack */}
-                    <div className="grid grid-cols-1  w-full
-                    md:grid-cols-3">
-                        {}
+                    <div className="grid grid-cols-1  w-full gap-4
+                    md:grid-cols-2 lg:grid-cols-3">
+                        {technologies.map(technology => <Tech key={technology.id} technology={technology}/>)}
                     </div>
 
                     {/* User stack */}

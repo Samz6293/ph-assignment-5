@@ -5,10 +5,15 @@ export interface Technology {
     description: string,
     icon: string,
     rating: number,
+    color: string,
     difficulty: string,
     badge: string
 }
 
 export interface TechStackProps {
     technologiesPromise: Promise<Technology[]>
+}
+
+export interface TechProps {
+    technology: Technology
 }
