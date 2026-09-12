@@ -8,13 +8,13 @@ const ChosenStacks = ({selectedStack, handleSelectedStack, handleClear}: ChosenS
             md:min-w-47.5 md:w-1/3">
                 <div className="text-start">
                     <h3 className="font-bold">Your Stack</h3>
-                    {selectedStack.length === 0 && <p className="text-xs text-[#667488] font-light sm:text-sm">No technologies selected yet.</p>}
-                    {selectedStack.length === 1 && <p className="text-xs text-[#667488] font-light sm:text-sm">1 Technology Selected</p>}
-                    {selectedStack.length > 1 && <p className="text-xs text-[#667488] font-light sm:text-sm">{selectedStack.length} Technologies Selected</p>}
+                    {selectedStack.length === 0 && <p className="text-xs text-[#94A3B8] font-light sm:text-sm">No technologies selected yet.</p>}
+                    {selectedStack.length === 1 && <p className="text-xs text-[#94A3B8] font-light sm:text-sm">1 Technology Selected</p>}
+                    {selectedStack.length > 1 && <p className="text-xs text-[#94A3B8] font-light sm:text-sm">{selectedStack.length} Technologies Selected</p>}
                 </div>
                 <div className="w-full">
                     {selectedStack.length === 0 ?
-                    <p className="p-6 font-extralight text-center text-xs text-[#667488] outline outline-gray-300 rounded-lg outline-dashed">Your stack is empty</p>
+                    <p className="p-6 font-extralight text-center text-xs text-[#94A3B8] outline outline-gray-300 rounded-lg outline-dashed">Your stack is empty</p>
                     :
                     selectedStack.map(stack => <ChosenStack key={stack.id} stack={stack} handleSelectedStack={handleSelectedStack}/>
                     )

@@ -36,7 +36,7 @@ const Tech = ({technology, selectedStack, handleSelectedStack}: TechProps) => {
                 <div className=" bg-[#F3F4F6] w-full h-0.5"/>
 
                 <div className="flex justify-between items-center text-[#667488] text-[10px] lg:text-sm">
-                    <p className="bg-slate-50 rounded-md px-2 py-0.5">{technology.category}</p>
+                    <p className="bg-[#F3F4F6] rounded-md px-2 py-0.5">{technology.category}</p>
                     <p>{technology.difficulty}</p>
                     <div className="flex items-center gap-1 text-amber-500">
                         <MdStar />
@@ -46,7 +46,7 @@ const Tech = ({technology, selectedStack, handleSelectedStack}: TechProps) => {
 
 
                 <button className={`${!isSelected ? " bg-black text-white cursor-pointer" : "bg-gray-300 text-gray-800 font-bold cursor-not-allowed"}  rounded-lg py-2 w-[97%] mx-auto`}
-                onClick={handleSelect} disabled={isSelected}>{!isSelected ? "Add to Stack": "Added"}</button>
+                onClick={handleSelect} disabled={isSelected}>{!isSelected ? "Add to Stack": "✓ Added to Stack"}</button>
             </div>
         </>
     )

@@ -58,11 +58,10 @@ function App() {
         <>
             <Nav />
             <Hero />
-            <Suspense fallback={<p>Loading...</p> }>
-                </Suspense><TechStacks technologiesPromise={technologiesPromise} selectedStack={selectedStack} 
+            <Suspense fallback={<p className="text-center">Loading...</p> }>
+                <TechStacks technologiesPromise={technologiesPromise} selectedStack={selectedStack} 
                 handleSelectedStack={handleSelectedStack} handleClear={handleClear} />
-            <Suspense/>
-            {console.log(selectedStack)}
+            </Suspense>
             <Footer />
         </>
     )

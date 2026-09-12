@@ -11,7 +11,7 @@ const Footer = () => {
                         {/* left side on big screens */}
                         <div className="flex flex-col items-center  text-center gap-4 max-w-[320px]
                         md:items-start md:text-start">
-                            <img className="block" src={logo} alt="Dev Stack Logo" />
+                            <img className="block h-9" src={logo} alt="Dev Stack Logo" />
                             <p className="text-[#6B7280] text-sm">Curated tools, technologies, 
                             and resources for developers building modern software.</p>
                             <div className="flex justify-between gap-5 text-sm text-[#4B5563]">

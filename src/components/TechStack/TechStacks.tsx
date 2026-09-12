@@ -7,8 +7,8 @@ const TechStacks = ({technologiesPromise, selectedStack, handleSelectedStack, ha
     const technologies = use(technologiesPromise);
     return (
         <>
-            <section className="content-box-s flex flex-col items-center py-10 gap-5
-            lg:items-start lg:content-box">
+            <section className="content-box-s flex flex-col items-center my-8 gap-5
+            lg:items-start lg:content-box lg:my-40">
 
                 <div className="flex flex-col justify-center text-center gap-1
                 lg:text-start">
