@@ -16,18 +16,19 @@ const Nav = () => {
 
                 <ul className="hidden text-gray-500 justify-center gap-4
                 md:flex">
-                    <li className="hover:text-[#D91B7E]"><a href="#">Home</a></li>
-                    <li className="hover:text-[#D91B7E]"><a href="#">Technologies</a></li>
-                    <li className="hover:text-[#D91B7E]"><a href="#">Projects</a></li>
-                    <li className="hover:text-[#D91B7E]"><a href="#">About</a></li>
-                    <li className="hover:text-[#D91B7E]"><a href="#">Contact</a></li>
+                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Home</a></li>
+                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Technologies</a></li>
+                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Projects</a></li>
+                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">About</a></li>
+                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Contact</a></li>
                 </ul>
 
                 <div className="flex gap-3 items-center justify-end 
                 md:gap-4">
-                    <button className="font-bold text-gray-600 cursor-pointer">Sign In</button>
+                    <button className="font-bold text-gray-600 cursor-pointer transition-all duration-200
+                    hover:text-gray-500 active:scale-90">Sign In</button>
                     <button className="bg-[#D91B7E] text-white rounded-full px-3 py-0.5 cursor-pointer
-                    hover:bg-pink-600
+                    hover:bg-pink-600 active:scale-90 transition-all duration-200
                     sm:py-1">Sign Up</button>
                 </div>
             </div>

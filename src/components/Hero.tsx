@@ -20,8 +20,10 @@ const Hero = () => {
 
                     <div className="flex gap-3 font-light justify-center text-sm mt-4
                     sm:text-lg md:justify-start">
-                        <button className="orange-pink text-white px-4 py-3 rounded-lg cursor-pointer">Explore Technologies</button>
-                        <button className="px-8 py-3 outline outline-[#E5E7EB] rounded-lg cursor-pointer">Learn More</button>
+                        <button className="orange-pink text-white px-4 py-3 rounded-lg cursor-pointer transition-all duration-200
+                        hover:shadow-md hover:shadow-pink-200 active:scale-95">Explore Technologies</button>
+                        <button className="px-8 py-3 outline outline-[#E5E7EB] rounded-lg cursor-pointer transition-all duration-200
+                        hover:bg-gray-100 active:scale-95">Learn More</button>
                     </div>
                 </div>
 

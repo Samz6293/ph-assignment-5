@@ -11,7 +11,7 @@ const ChosenStack = ({stack, handleSelectedStack}: ChosenStackProps) => {
                         <p className="text-xs text-[#94A3B8] md:text-[12px]">{stack.category}</p>
                     </div>
                 </div>
-                <button className="cursor-pointer" 
+                <button className="cursor-pointer transition-all duration-200 hover:text-gray-500" 
                 onClick={() => handleSelectedStack(stack,true)}><RxCross1 /></button>
 
             </div>

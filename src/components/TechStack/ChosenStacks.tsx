@@ -19,7 +19,8 @@ const ChosenStacks = ({selectedStack, handleSelectedStack, handleClear}: ChosenS
                     selectedStack.map(stack => <ChosenStack key={stack.id} stack={stack} handleSelectedStack={handleSelectedStack}/>
                     )
                     }
-                    <button className={`${selectedStack.length === 0 && "hidden"} text-red-500 text-sm font-bold w-full outline rounded-lg py-2 mt-13 cursor-pointer`}
+                    <button className={`${selectedStack.length === 0 && "hidden"} text-red-500 text-sm font-bold w-full outline rounded-lg py-2 mt-13 cursor-pointer
+                    transition-all duration-200 hover:scale-105 active:scale-95`}
                     onClick={() => handleClear(true)}>Remove All</button>
                 </div>
             </div>

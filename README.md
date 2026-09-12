@@ -41,11 +41,11 @@ Prototype: `useEffect(callback, [dependencies])`. An empty array in the second a
 
 **5. Why does every item in a `.map()` list need a unique `key` prop?**
 
-React needs a unique identifier for each item rendered through `.map()`. This helps React update these elements later. In our my, I used `id` to identify if a certain technology is present in the "Your Stack" section.
+React needs a unique identifier for each item rendered through `.map()`. This helps React update these elements later. In my project, I used `id` to identify if a certain technology is present in the "Your Stack" section.
 
 **6. What is conditional rendering? Show one place you used it.**
 
-Rendering something based on a condition. Used in the "Your stack" section to display whether it is empty, contains one technology, or contains multiple technologies.
+Rendering something based on a condition. Used in the "Your stack" section to display whether it is empty, contains one or multiple technologies.
 
 ![image alt](https://github.com/Samz6293/ph-assignment-5/blob/dfff81a6e76bd3ab165ab5a2f2b28d8c0ef3af44/readme-assets/conditional-rendering.png)
 

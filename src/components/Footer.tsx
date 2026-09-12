@@ -15,11 +15,11 @@ const Footer = () => {
                             <p className="text-[#6B7280] text-sm">Curated tools, technologies, 
                             and resources for developers building modern software.</p>
                             <div className="flex justify-between gap-5 text-sm text-[#4B5563]">
-                                <a href="#">Github</a>
+                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Github</a>
                                 <p>•</p>
-                                <a href="#">Twitter</a>
+                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Twitter</a>
                                 <p>•</p>
-                                <a href="#">LinkedIn</a>
+                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">LinkedIn</a>
                             </div>
                         </div>
 
@@ -30,26 +30,26 @@ const Footer = () => {
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">PRODUCT</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#">Home</a>
-                                    <a href="#">Technologies</a>
-                                    <a href="#">Projects</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Home</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Technologies</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Projects</a>
                                 </div>
                             </div>
 
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">COMPANY</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#">About</a>
-                                    <a href="#">Contact</a>
-                                    <a href="#">Careers</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">About</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Contact</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Careers</a>
                                 </div>
                             </div>
 
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">LEGAL</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#">Privacy Policy</a>
-                                    <a href="#">Terms of Service</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Privacy Policy</a>
+                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Terms of Service</a>
                                 </div>
                             </div>
 
@@ -61,8 +61,8 @@ const Footer = () => {
                     <div className="flex w-full justify-between text-xs text-[#9CA3AF]">
                         <p>&copy; 2026 Dev Stack. All rights reserved.</p>
                         <div className="flex gap-2">
-                            <a href="#">Privacy</a>
-                            <a href="#">Terms</a>
+                            <a href="#" className="hover:text-gray-600 active:text-gray-900 transition-all duration-200">Privacy</a>
+                            <a href="#" className="hover:text-gray-600 active:text-gray-900 transition-all duration-200">Terms</a>
                         </div>
                     </div>
 
