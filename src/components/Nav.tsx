@@ -16,11 +16,11 @@ const Nav = () => {
 
                 <ul className="hidden text-gray-500 justify-center gap-4
                 md:flex">
-                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Home</a></li>
-                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Technologies</a></li>
-                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Projects</a></li>
-                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">About</a></li>
-                    <li className="hover:text-[#D91B7E] active:text-pink-700"><a href="#">Contact</a></li>
+                    <li className="nav-hover"><a href="#">Home</a></li>
+                    <li className="nav-hover"><a href="#">Technologies</a></li>
+                    <li className="nav-hover"><a href="#">Projects</a></li>
+                    <li className="nav-hover"><a href="#">About</a></li>
+                    <li className="nav-hover"><a href="#">Contact</a></li>
                 </ul>
 
                 <div className="flex gap-3 items-center justify-end 

@@ -20,6 +20,15 @@ body {
     max-width: 1200px;
 }
 
+
+@utility nav-hover {
+    @apply hover:text-[#D91B7E] active:text-pink-700;
+}
+
+@utility footer-hover {
+    @apply hover:text-gray-400 active:text-gray-800 transition-all duration-200;
+}
+
 @utility orange-pink-purple {
     @apply bg-linear-to-r from-[#FF5722] via-[#E91E63] to-[#9C27B0] 
     bg-clip-text text-transparent;

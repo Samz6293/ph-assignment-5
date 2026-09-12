@@ -15,11 +15,11 @@ const Footer = () => {
                             <p className="text-[#6B7280] text-sm">Curated tools, technologies, 
                             and resources for developers building modern software.</p>
                             <div className="flex justify-between gap-5 text-sm text-[#4B5563]">
-                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Github</a>
+                                <a href="#" className="footer-hover">Github</a>
                                 <p>•</p>
-                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Twitter</a>
+                                <a href="#" className="footer-hover">Twitter</a>
                                 <p>•</p>
-                                <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">LinkedIn</a>
+                                <a href="#" className="footer-hover">LinkedIn</a>
                             </div>
                         </div>
 
@@ -30,26 +30,26 @@ const Footer = () => {
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">PRODUCT</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Home</a>
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Technologies</a>
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Projects</a>
+                                    <a href="#" className="footer-hover">Home</a>
+                                    <a href="#" className="footer-hover">Technologies</a>
+                                    <a href="#" className="footer-hover">Projects</a>
                                 </div>
                             </div>
 
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">COMPANY</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">About</a>
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Contact</a>
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Careers</a>
+                                    <a href="#" className="footer-hover">About</a>
+                                    <a href="#" className="footer-hover">Contact</a>
+                                    <a href="#" className="footer-hover">Careers</a>
                                 </div>
                             </div>
 
                             <div className="flex flex-col gap-4 w-1/3">
                                 <h3 className="font-bold">LEGAL</h3>
                                 <div className="flex flex-col gap-1 text-[#64748B]">
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Privacy Policy</a>
-                                    <a href="#" className="hover:text-gray-400 active:text-gray-800 transition-all duration-200">Terms of Service</a>
+                                    <a href="#" className="footer-hover">Privacy Policy</a>
+                                    <a href="#" className="footer-hover">Terms of Service</a>
                                 </div>
                             </div>
 
